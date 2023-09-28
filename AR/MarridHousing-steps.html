@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<!-- <html lang="en" dir="ltr"> -->
+
+<head>
+    <meta charset="utf-8" />
+    <title>تسجيل بيانات طلب مسكن للمتزوج</title>
+    <meta name="description" content="Ministry of Social Development & Family" />
+    <meta name="author" content="Ministry of Social Development & Family" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="../assets/img/favicon.svg" type="image/vnd.microsoft.icon" id="favicon" />
+    <link rel="canonical" href="https://www.msdf.gov.qa/" />
+    <!-- Css imports -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min-rtl.css" />
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../assets/css/responsive-tabs.css" />
+    <link rel="stylesheet" href="../assets/css/intlTelInput.css" />
+    <link rel="stylesheet" href="../assets/css/stacktable.css" />
+    <link rel="stylesheet" href="../assets/css/fonts.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/stylesAr.css" />
+    <!-- end Css imports-->
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <header class="header">
+            <div class="container-lg">
+                <div class="row align-items-center justify-content-between">
+                    <div class=" col-12 col-sm-auto">
+                        <div class="header-logo">
+                            <h1 class="logo">
+                                <a href="#"><img src="../assets/img/MSDF-Logo.png" alt="Ministry of Social Development & Family"></a>
+                            </h1>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="bi bi-list">
+                                    <span class="sr-only">Open Navigation</span>
+                                </span>
+                                <span class="bi bi-x">
+                                    <span class="sr-only">Close Navigation</span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-auto">
+                        <div class="main-menu">
+                            <nav class="navbar navbar-expand-xl">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <h3 class="mobileMenuHeader">القائمة الرئيسية</h3>
+                                    <ul class="navbar-nav ms-auto">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">
+                                                <i class="bi bi-house-door me-1"></i>
+                                                الصفحة الرئيسية
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="services.html">
+                                                <i class="bi bi-dice-4 me-1"></i>
+                                                الخدمات
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="services-all-requests.html">
+                                                <i class="bi bi-list-ul me-1"></i>
+                                                الطلبات
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="my-account.html">
+                                                <i class="bi bi-person-circle me-1"></i>
+                                                الملف الشخصي
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="login.html">
+                                                <i class="bi bi-box-arrow-left me-1"></i>
+                                                تسجيل خروج
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="innerpage">
+                <div class="container-fluid">
+                    <div class="innerpage-layout">
+                        <div class="row">
+                            <div class="col-lg-4 col-container">
+                                <div class="sidebar-img">
+                                    <img src="../assets/img/2021-09-12.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-container">
+                                <div class="inner-content">
+                                    <p>
+                                        <a href="#" class="back-link">
+                                            <i class="bi bi-arrow-left"></i>
+                                            العودة إلى الطلبات
+                                        </a>
+                                    </p>
+                                    <h3 class="main-heading">
+                                        طلب الانتفاع بمسكن إسكان ذوي الحاجة للمتزوج
+                                    </h3>
+                                    <div class="register-steps" id="horizontalTab">
+                                        <ul class="register-tabItems">
+                                            <li>
+                                                <a href="#tab-1">
+                                                    <span class="tab-num">١</span>
+                                                    المعلومات الشخصية
+                                                </a>
+                                            </li>
+                                            <li><a href="#tab-2">
+                                                    <span class="tab-num">٢</span>
+                                                      معلومات الطلب
+                                                </a>
+                                            </li>
+                                            <li><a href="#tab-3">
+                                                    <span class="tab-num">٣</span>
+                                                    المرفقات
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="register-tabContent" id="tab-1">
+                                            <div class="tab-form">
+                                                <h4 class="main-heading">
+                                                    المعلومات الشخصية
+                                                </h4>
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group">
+                                                            <label for="el-1">الإسم * </label>
+                                                            <input type="text" class="form-control" id="el-1" placeholder="الرجاء إدخال الإسم الكامل" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group">
+                                                            <label for="el-2">
+                                                                رقم البطاقه  *
+                                                            </label>
+                                                            <input type="text" class="form-control" id="el-2" placeholder="الرجاء إدخال الرقم الشخصي" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group">
+                                                            <label for="expDate">
+                                                                تاريخ انتهاء البطاقه *
+                                                            </label>
+                                                            <input type="date" class="form-control" id="expDate" placeholder="الرجاء تحديد تاريخ انتهاء البطاقه" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group">
+                                                            <label for="gdr">الجنس *</label>
+                                                            <select class="form-select" id="gdr">
+                                                                <option>
+                                                                    الرجاء تحديد الجنس
+                                                                </option>
+                                                                <option>
+                                                                    الرجاء تحديد الجنس
+                                                                </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group">
+                                                            <label for="el-3">
+                                                                البريد الإلكتروني *
+                                                            </label>
+                                                            <input type="text" class="form-control" id="el-3" placeholder="البريد الإلكتروني" value="ahmad_alatiyyah@gmail.com">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group">
+                                                            <label for="phone">
+                                                                رقم الجوال *
+                                                            </label>
+                                                            <input type="text" class="form-control phone" id="phone" placeholder="أدخل رقم الجوال" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group">
+                                                            <label for="phone-1">
+                                                                رقم الهاتف *
+                                                            </label>
+                                                            <input type="text" class="form-control phone" id="phone-1" placeholder="أدخل رقم الجوال" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="action-buttons">
+                                                <a href="#tab-2" class="btn-brand">
+                                                    الحفظ والمتابعة
+                                                    <i class="bi bi-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="register-tabContent" id="tab-2">
+                                            <div class="tab-form">
+                                                <h4 class="main-heading">
+                                                     معلومات الطلب
+                                                </h4>
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group">
+                                                            <label for="el1-1">
+                                                                البلديه *
+                                                            </label>
+                                                            <select id="el1-1" class="form-select">
+                                                                <option>الرجاء إختيار الفئة</option>
+                                                                <option>الرجاء إختيار الفئة</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group">
+                                                            <label for="el1-2">
+                                                                المنطقه *
+                                                            </label>
+                                                            <select id="el1-2" class="form-select">
+                                                                <option>
+                                                                    الرجاء إختيار الحرفة
+                                                                </option>
+                                                                <option>
+                                                                    الرجاء إختيار الحرفة
+                                                                </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group">
+                                                            <label for="n1">
+                                                                رقم المنطقة *
+                                                            </label>
+                                                            <input type="text" class="form-control phone" id="n1" placeholder="أدخل رقم المنطقه" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="action-buttons">
+                                                <a href="#tab-1" class="btn-brand-outline">
+                                                    <i class="bi bi-arrow-left"></i>
+                                                    الرجوع إلى الوراء
+                                                </a>
+                                                <a href="#tab-3" class="btn-brand">
+                                                    الحفظ والمتابعة
+                                                    <i class="bi bi-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="register-tabContent" id="tab-3">
+                                            <div class="tab-form">
+                                                <h4 class="main-heading">
+                                                    المرفقات
+                                                </h4>
+                                                <div class="form-group">
+                                                    <label>
+                                                        صورة عن البطاقة الشخصية *
+                                                    </label>
+                                                    <div class="card-box">
+                                                        <div class="row align-items-center justify-content-between">
+                                                            <div class="col-lg">
+                                                                <label for="file-1" class="btn-brand-secondary-outline btn-small">
+                                                                    <i class="bi bi-upload"></i> تحميل ملف
+                                                                </label>
+                                                                <input id="file-1" name='upload_cont_img' type="file" accept="application/pdf" style="display:none;">
+                                                                <label class="file-label">الملفات المقبولة: PDF</label>
+                                                            </div>
+                                                            <div class="col-lg-auto">
+                                                                <label id="file-sync-1" class="btn-brand-gray-outline btn-small d-none">
+                                                                    <i class="bi bi-arrow-repeat"></i> تحميل ملف
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group" id="is-1">
+                                                    <label>
+                                                        صورة من عقد الزواج او إثبات الزواج *
+                                                    </label>
+                                                    <div class="card-box">
+                                                        <div class="row align-items-center justify-content-between">
+                                                            <div class="col-lg">
+                                                                <label for="file-2" class="btn-brand-secondary-outline btn-small">
+                                                                    <i class="bi bi-upload"></i> تحميل ملف
+                                                                </label>
+                                                                <input id="file-2" name='upload_cont_img' type="file" accept="application/pdf" style="display:none;">
+                                                                <label class="file-label">الملفات المقبولة: PDF</label>
+                                                            </div>
+                                                            <div class="col-lg-auto">
+                                                                <label id="file-sync-2" class="btn-brand-gray-outline btn-small d-none">
+                                                                    <i class="bi bi-arrow-repeat"></i> تحميل ملف
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group" id="is-2">
+                                                    <label>
+                                                        صورة موافقة وزارة الداخلية في حالة الزواج من غير دول مجلس التعاون الخليجي * 
+                                                    </label>
+                                                    <div class="card-box">
+                                                        <div class="row align-items-center justify-content-between">
+                                                            <div class="col-lg">
+                                                                <label for="file-3" class="btn-brand-secondary-outline btn-small">
+                                                                    <i class="bi bi-upload"></i> تحميل ملف
+                                                                </label>
+                                                                <input id="file-3" name='upload_cont_img' type="file" accept="application/pdf" style="display:none;">
+                                                                <label class="file-label">الملفات المقبولة: PDF</label>
+                                                            </div>
+                                                            <div class="col-lg-auto">
+                                                                <label id="file-sync-3" class="btn-brand-gray-outline btn-small d-none">
+                                                                    <i class="bi bi-arrow-repeat"></i> تحميل ملف
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group" id="is-3">
+                                                    <label>
+                                                        صور من شهادات ميلاد الأبناء أو البطاقات الشخصية *
+                                                    </label>
+                                                    <div class="card-box">
+                                                        <div class="row align-items-center justify-content-between">
+                                                            <div class="col-lg">
+                                                                <label for="file-4" class="btn-brand-secondary-outline btn-small">
+                                                                    <i class="bi bi-upload"></i> تحميل ملف
+                                                                </label>
+                                                                <input id="file-4" name='upload_cont_img' type="file" accept="application/pdf" style="display:none;">
+                                                                <label class="file-label">الملفات المقبولة: PDF</label>
+                                                            </div>
+                                                            <div class="col-lg-auto">
+                                                                <label id="file-sync-4" class="btn-brand-gray-outline btn-small d-none">
+                                                                    <i class="bi bi-arrow-repeat"></i> تحميل ملف
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group" id="is-4">
+                                                    <label>
+                                                        شهادة من التسجيل العقاري من وزارة العدل تثبت أنه لم يؤول له مسكن ملائم لسكناه خلال الخمس سنوات الماضية *                                                     </label>
+                                                    <div class="card-box">
+                                                        <div class="row align-items-center justify-content-between">
+                                                            <div class="col-lg">
+                                                                <label for="file-5" class="btn-brand-secondary-outline btn-small">
+                                                                    <i class="bi bi-upload"></i> تحميل ملف
+                                                                </label>
+                                                                <input id="file-5" name='upload_cont_img' type="file" accept="application/pdf" style="display:none;">
+                                                                <label class="file-label">الملفات المقبولة: PDF</label>
+                                                            </div>
+                                                            <div class="col-lg-auto">
+                                                                <label id="file-sync-5" class="btn-brand-gray-outline btn-small d-none">
+                                                                    <i class="bi bi-arrow-repeat"></i> تحميل ملف
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group" id="is-5">
+                                                    <label>
+                                                        عقد إيجار مصدق في حالة السكن بمسكن مستأجر أو تعهد بإحضار عقد إيجار من البلدية + رقم الكهرباء والماء في حال الموافقة *                                                    </label>
+                                                    <div class="card-box">
+                                                        <div class="row align-items-center justify-content-between">
+                                                            <div class="col-lg">
+                                                                <label for="file-6" class="btn-brand-secondary-outline btn-small">
+                                                                    <i class="bi bi-upload"></i> تحميل ملف
+                                                                </label>
+                                                                <input id="file-6" name='upload_cont_img' type="file" accept="application/pdf" style="display:none;">
+                                                                <label class="file-label">الملفات المقبولة: PDF</label>
+                                                            </div>
+                                                            <div class="col-lg-auto">
+                                                                <label id="file-sync-6" class="btn-brand-gray-outline btn-small d-none">
+                                                                    <i class="bi bi-arrow-repeat"></i> تحميل ملف
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="action-buttons">
+                                                <a href="#tab-2" class="btn-brand-outline">
+                                                    <i class="bi bi-arrow-left"></i>
+                                                    الرجوع إلى الوراء
+                                                </a>
+                                                <a href="https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=qrqKlVXpiU61UuLW8I8Mu1B8i2eiP-pJsWyNdSwf-upUQVNSR01HQTVNTERZWFFKNFVTQ0hCQ0ZIWi4u" class="btn-brand">
+                                                    تقديم الطلب
+                                                    <i class="bi bi-arrow-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container-lg">
+                <div class="row gx-lg-0 align-items-center justify-content-between">
+                    <div class="col-12 col-md-auto order-1">
+                        <a href="#" class="footer-logo"><img src="../assets/img/MSDF-Logo.png" alt="Ministry of Social Development & Family"></a>
+                    </div>
+                    <div class="col-md-auto col-6 order-4 order-md-2">
+                        <p class="copyright">جميع الحقوق محفوظة - ٢٠٢٢</p>
+                    </div>
+                    <div class="col-md order-3"></div>
+                    <div class="col-12 col-md-auto order-2 order-md-3">
+                        <div class="footer-links">
+                            <a href="#">شروط الاستخدام</a>
+                            <a href="#">سياسة الخصوصية</a>
+                            <a href="#">خريطة الموقع</a>
+                            <a href="#">تواصل معنا</a>
+                        </div>
+                    </div>
+                    <div class="col-md-auto col-6 order-5">
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                            <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="../assets/js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="../assets/js/jquery.responsiveTabs.js"></script>
+    <script src="../assets/js/stacktable.js"></script>
+    <script src="../assets/js/intlTelInput.js"></script>
+    <script src="../assets/js/initialization-script.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+@charset "UTF-8";
+html, html[dir="ltr"], [dir="ltr"] {
+    direction: ltr;
+}
+html[dir="rtl"], [dir="rtl"] {
+    direction: rtl;
+}
+body {
+    font-family: "Lusail", "Tahoma", Arial, sans-serif;
+    font-weight: normal;
+}
+#twitter-widget-0, .timeline-Header-title .twitter-timeline, .twitter-timeline * {
+    font-family: "Lusail", "Tahoma", Arial, sans-serif !important;
+}
+.bi-box-arrow-left::before {
+    transform: rotateZ(180deg) !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+.font-regular {
+    font-weight: normal;
+}
+.font-light {
+    font-weight: 300;
+}
+.font-medium {
+    font-weight: 500;
+}
+.font-bold {
+    font-weight: bold;
+}
+.btn-brand i, .btn-brand-outline i {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.main-menu li>.nav-dropdown li>.nav-dropdown {
+    left: 100%;
+}
+.main-menu li>.nav-dropdown li:before {
+    left: 0;
+}
+
+.main-menu li.nav-item:first-child {
+    margin-left: 0;
+}
+.main-menu li.nav-item:last-child {
+    margin-right: 0;
+}
+
+.main-menu li.nav-item:not(:last-child)::after {
+    right: -1.5rem;
+}
+
+.inner-content {
+    padding-right: 0rem;
+}
+.tab-num {
+    margin-right: 0.5rem;
+}
+.r-tabs .r-tabs-accordion-title {
+    padding-right: 2rem;
+}
+.r-tabs .r-tabs-accordion-title::after {
+    right: 0.5rem;
+}
+
+/* end */
+
+@media all and (min-width: 1200px) {
+    .main-menu li.with-dropdown {
+        padding-right: 2rem !important;
+    }
+    .main-menu li.with-dropdown:after {
+        right: 0.75rem;
+    }
+    .register-tabItems .r-tabs-tab {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .register-tabItems .r-tabs-tab:first-child {
+        padding-left: 0;
+    }
+}
+@media all and (max-width: 1199px) {
+    .with-dropdown:after {
+        right: 0;
+    }
+    .main-menu li>.nav-dropdown {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .main-menu .ms-core-listMenu-horizontalBox ul.ms-core-listMenu-root>li>ul>li {
+        padding-right: 2.5rem !important;
+    }
+    .main-menu li>.nav-dropdown li>.nav-dropdown {
+        left: 0;
+    }
+}
+@media all and (max-width: 1023px) {}
+@media all and (max-width: 767px) {
+    .inner-card-body .inner-card-list-item .removeIcon {
+        right: 0;
+    }
+}
+
+/*# sourceMappingURL=styleLang.css.map */

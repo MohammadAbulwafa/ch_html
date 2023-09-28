@@ -1,0 +1,269 @@
+
+$font_family_1: 'Poppins',san-serif;
+
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+
+
+body {
+    font-family: $font_family_1;
+
+}
+
+header {
+	.navbar-brand {
+		
+		left: 65px;
+		
+	}
+    .upper-social {
+       
+        .controls {
+          
+            margin-right: 60px;
+
+            .search {
+
+                i {
+                   
+                    right: 20px;
+                }
+
+               
+            }
+
+          
+
+            .log-reg {
+              
+
+                .loginBtn {
+                   
+                    border-top-left-radius: 30px;
+                    border-bottom-left-radius: 30px;
+                }
+
+                .registerBtn {
+                    
+                    border-top-right-radius: 30px;
+                    border-bottom-right-radius: 30px;
+                }
+            }
+        }
+
+        .social-icons {
+           
+            left: 180px;
+        }
+    }
+
+    nav {
+
+
+        #navbarText {
+            margin-right: 60px;
+			padding-left: 184px;
+
+        }
+    }
+
+}
+
+.top-left-btn-bg {
+  
+    left: 200px;
+}
+
+
+
+.action-btn {
+    text-align: right;
+}
+
+
+
+main {
+    .title-section {
+       
+        h2 {
+            
+            margin: 48px 0 0 -60px;
+        }
+    }
+
+    #carousel-wrapper {
+       
+        #myCarousel {
+
+            .carousel-item {
+                .banner-overlay {
+                 
+                    left: 0;
+                }
+
+
+                .carousel-caption {
+                    left: 70px;
+
+                    .caption-btn {
+                        text-align: right;
+                    }
+                }
+            }
+
+            .carousel-indicators {
+                right: 0 !important;
+                left: auto !important;
+                margin-right: 10% !important;
+            }
+        }
+
+        aside {
+            .sale-rent {
+               
+                label {
+                  
+                    &:first-child {
+                        margin-right: 15px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .properties-list {
+
+        .property-item {
+            .property-size {
+                right: 0;
+                border-radius: 0 0 12px 0;
+            }
+
+           
+
+            .property-desc {
+               
+                text-align: left;
+            
+
+                img {
+                    margin-right: 9px;
+                }
+            }
+
+        }
+
+        .fig-caption {
+            text-align: left;
+        }
+
+
+    }
+
+    .see-more {
+
+        img {
+            margin-left: 3px;
+        }
+    }
+
+  
+
+    .latestOffersSection {
+
+       
+
+        .newTag {
+            border-radius: 0 0 10px 0;
+            left: 0;
+           
+        }
+
+        .offTag {
+            right: 0;
+        }
+    }
+
+
+
+    #announcements {
+
+        .properties-list {
+
+            .property-item {
+             
+                .property-size {
+                    right: 2px;
+                    border-radius: 0 12px 0 0;
+                }
+
+                .property-tag {
+                  
+                    left: 0;
+                }
+            }
+
+           
+            .property-desc {
+
+                img {
+                    margin-right: 9px;
+                }
+            }
+
+          
+        }
+    }
+}
+
+
+
+.chatBox,
+.chatBox .chat {
+
+    right: 20px;
+  
+}
+
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+	header .upper-social .social-icons{    left: 160px;}
+	.top-left-btn-bg{left: 175px;}
+	header nav #navbarText{margin-right: 0;padding-left: 0}
+
+}
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+
+    header .upper-social .controls .search {
+      
+		right: 100px;
+	}
+	
+	header nav #navbarText {
+		margin-right: 0; 
+		
+	}
+
+   
+   
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+	header .navbar-brand{left: 20px;}
+	header .upper-social .controls{margin-right: 20px}
+	footer .top-left-btn-bg{left: 0}
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+}

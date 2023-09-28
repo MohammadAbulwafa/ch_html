@@ -1,0 +1,36 @@
+@import url("bootstrap-icons.css");
+@import url("font-awesome.min.css");
+
+@font-face {
+    font-family: 'Lusail';
+    src: url('web-fonts/Lusail-Regular.woff2') format('woff2'),
+        url('web-fonts/Lusail-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lusail';
+    src: url('web-fonts/Lusail-Light.woff2') format('woff2'),
+        url('web-fonts/Lusail-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lusail';
+    src: url('web-fonts/Lusail-Medium.woff2') format('woff2'),
+        url('web-fonts/Lusail-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lusail';
+    src: url('web-fonts/Lusail-Bold.woff2') format('woff2'),
+        url('web-fonts/Lusail-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+/* End */

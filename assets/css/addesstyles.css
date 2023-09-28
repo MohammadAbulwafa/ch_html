@@ -1,0 +1,22 @@
+
+.banner-below-card-services {
+    margin: 50px !important;
+}
+.details-place a {
+    margin: -20px 10% 20px 10% !important;
+}
+.srevices-header{
+    width: 80%;
+    margin: 0 10%;
+    height: 30px;
+    background-color: black;
+    justify-content: baseline;
+}
+.services-name{
+    float: right;
+    margin: 0 5% 0 10px;
+}
+.more-button{
+    float: left;
+    margin: 0 10px 0 5%;
+}

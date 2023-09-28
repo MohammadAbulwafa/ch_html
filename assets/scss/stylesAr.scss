@@ -1,0 +1,274 @@
+
+$font_family_1: 'Poppins',san-serif;
+
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+
+
+body {
+    font-family: $font_family_1;
+
+}
+
+header {
+	.navbar-brand {
+		
+		right: 65px;
+		
+	}
+    .upper-social {
+       
+        .controls {
+          
+            margin-left: 60px;
+
+            .search {
+
+                i {
+                   
+                    left: 20px;
+                }
+
+               
+            }
+
+          
+
+            .log-reg {
+              
+
+                .loginBtn {
+                   
+                    border-top-right-radius: 30px;
+                    border-bottom-right-radius: 30px;
+                }
+
+                .registerBtn {
+                    
+                    border-top-left-radius: 30px;
+                    border-bottom-left-radius: 30px;
+                }
+            }
+        }
+
+        .social-icons {
+           
+            right: 180px;
+        }
+    }
+
+    nav {
+
+
+        #navbarText {
+            margin-left: 60px;
+			padding-right: 184px;
+
+        }
+    }
+
+}
+
+.top-left-btn-bg {
+  
+    right: 200px;
+}
+
+
+
+.action-btn {
+    text-align: left;
+}
+
+
+
+main {
+    .title-section {
+
+       img{
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+       }
+        h2 {
+            
+            margin: 48px -60px 0 0;
+        }
+    }
+
+    #carousel-wrapper {
+       
+        #myCarousel {
+
+            .carousel-item {
+                .banner-overlay {
+                 
+                    right: 0;
+                }
+
+
+                .carousel-caption {
+                    right: 70px;
+
+                    .caption-btn {
+                        text-align: left;
+                    }
+                }
+            }
+
+            .carousel-indicators {
+                left: 0 !important;
+                right: auto !important;
+                margin-left: 10% !important;
+            }
+        }
+
+        aside {
+            .sale-rent {
+               
+                label {
+                  
+                    &:first-child {
+                        margin-left: 15px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .properties-list {
+
+        .property-item {
+            .property-size {
+                left: 0;
+                border-radius: 0 0 0 12px;
+            }
+
+           
+
+            .property-desc {
+               
+                text-align: right;
+            
+
+                img {
+                    margin-left: 9px;
+                }
+            }
+
+        }
+
+        .fig-caption {
+            text-align: right;
+        }
+
+
+    }
+
+    .see-more {
+
+        img {
+            margin-right: 3px;
+        }
+    }
+
+  
+
+    .latestOffersSection {
+
+       
+
+        .newTag {
+            border-radius: 0 0 0 10px;
+            right: 0;
+           
+        }
+
+        .offTag {
+            left: 0;
+        }
+    }
+
+
+
+    #announcements {
+
+        .properties-list {
+
+            .property-item {
+             
+                .property-size {
+                    left: 2px;
+                    border-radius: 12px 0 0 0;
+                }
+
+                .property-tag {
+                  
+                    right: 0;
+                }
+            }
+
+           
+            .property-desc {
+
+                img {
+                    margin-left: 9px;
+                }
+            }
+
+          
+        }
+    }
+}
+
+
+
+.chatBox,
+.chatBox .chat {
+
+    left: 20px;
+  
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+	header .upper-social .social-icons{    right: 160px;}
+	.top-left-btn-bg{right: 175px;}
+	header nav #navbarText{margin-left: 0;padding-right: 0}
+
+}
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+
+    header .upper-social .controls .search {
+      
+		left: 100px;
+	}
+	
+	header nav #navbarText {
+		margin-left: 0; 
+		
+	}
+
+   
+   
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+	header .navbar-brand{right: 20px;}
+	header .upper-social .controls{margin-left: 20px}
+	footer .top-left-btn-bg{right: 0}
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+}
